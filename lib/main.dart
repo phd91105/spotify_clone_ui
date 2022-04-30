@@ -6,11 +6,11 @@ import 'package:device_preview/device_preview.dart';
 import 'package:get/get.dart';
 
 void main() {
-  runApp(
-    DevicePreview(
-      enabled: !kReleaseMode,
-      builder: (context) => const MyApp(), // Wrap your app
-    ),
+  runApp(const MyApp()
+   // DevicePreview(
+   //   enabled: !kReleaseMode,
+   //   builder: (context) => const MyApp(), // Wrap your app
+   // ),
   );
 }
 
