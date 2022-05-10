@@ -45,7 +45,7 @@ jobs:
           zip -r ${{ github.event.repository.name }}.ipa Payload
 
       - name: Release Apps
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@v1.10.0
         with:
           tag: ${{ env.APP_VERSION }}
           name: ${{ env.APP_VERSION }}
