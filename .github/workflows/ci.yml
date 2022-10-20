@@ -1,5 +1,4 @@
 name: Build and Release Flutter Apps
-
 on:
   push:
     branches:
